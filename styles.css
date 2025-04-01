@@ -1,0 +1,58 @@
+ * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(170, 253, 253);
+    color: black;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks li {
+    display: inline;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.navLinks a:hover {
+    color: white;
+}
+
+.buttons button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.login {
+    background: transparent;
+    color: black;
+}
+
+.login :hover {
+    background: white;
+    color: red;
+}
