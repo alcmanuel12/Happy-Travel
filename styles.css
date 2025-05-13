@@ -9,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: rgb(170, 253, 253);
-    color: black;
+    background-color: rgba(3, 107, 3, 0.251);
+    color: rgb(255, 255, 255);
 }
 
 .navbar .logo {
@@ -31,12 +31,12 @@
 
 .navLinks a {
     text-decoration: none;
-    color: black;
-    font-size: 14px;
+    color: rgb(247, 194, 60);
+    font-size: 16px;
 }
 
 .navLinks a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .buttons button {
@@ -45,14 +45,104 @@
     cursor: pointer;
     font-size: 16px;
     border-radius: 20px;
+    background-color: rgb(247, 194, 60);
 }
 
 .login {
     background: transparent;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .login :hover {
-    background: white;
+    background: rgb(206, 19, 19);
     color: red;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(18, 131, 18, 0.589);
+    text-align: center;
+    z-index: 999;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px green;
+
+}
+
+.Logo1 {
+    height: 80px;
+}
+
+.Parte1{
+    background-color: rgba(3, 107, 3, 0.462);
+}
+
+.Fbari {
+    display: flex;
+    width: 600;
+    height: 450px;
+    margin-left: 790px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content:
+    space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: darkgreen;
+    color: darkgoldenrod;
+}
+
+.left, .right {
+    display:flex;
+    align-items: center;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.right {
+    justify-content: flex-end;
+
+}
+
+.copyright {
+    margin: 0 20px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.textoP1 {
+    
+    margin-left: 60px;
+    color: rgb(247, 194, 60);
+    font: small-caps 100%/200% serif;
+    position: absolute;
+    top: 200px;
+    font-size: xx-large;
+    
+    
+}
+
+.buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 500px;
+    border-radius:50px;
+    border: transparent;
+    border-bottom: solid 1px  rgb(247, 194, 60);
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    margin-left: 100;
+    top: 225px;;
+
 }
