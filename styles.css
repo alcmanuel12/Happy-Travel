@@ -230,6 +230,59 @@ header {
     background-color: rgb(206, 19, 19);
     color: white;
 }
+.contacto {
+    background-color: rgba(251, 253, 206, 0.52);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.TituloContacto {
+    color: rgb(247, 194, 60);
+    font-size: 2.5rem;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid rgb(247, 194, 60);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: none;
+}
+
+.formulario-contacto textarea {
+    resize: vertical;
+}
+
+.formulario-contacto button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247, 194, 60);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+    background-color: rgb(206, 19, 19);
+    color: white;
+}
 
 footer {
     display: flex;
@@ -264,52 +317,6 @@ footer {
     margin-right: 5px;
 }
 
-@media (max-width: 1200px) {
-    .Fbari {
-        margin-left: 0;
-        width: 100%;
-        max-width: 500px;
-    }
-}
 
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 10px;
-    }
 
-    .navLinks {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .textoP1 {
-        top: 50px;
-        left: 20px;
-    }
-
-    .textoP1 h2 {
-        font-size: 2rem;
-    }
-
-    .buscador {
-        top: 150px;
-        left: 20px;
-        max-width: 90%;
-    }
-
-    .buscador input {
-        font-size: 1rem;
-        padding: 12px 12px 12px 35px;
-    }
-
-    .mosaico-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .mosaico-grid {
-        grid-template-columns: 1fr;
-    }
-}

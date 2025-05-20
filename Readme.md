@@ -1,83 +1,81 @@
-# Happy Travel - Creación de Landing Page
+ Happy Travel - Creation of a Landing Page
 
-¡**Happy Travel** una una agencia de viajes virtual, con colores verdes y dorados que te hacen soñar con aventuras. Como estaba aprendiendo HTML y CSS, me esforcé mucho en usar etiquetas y propiedades nuevas como `flex`, `grid`, y `position`. Aquí te cuento qué hice, cómo lo hice, y cómo probar mi proyecto.
+**Happy Travel** is a virtual travel agency with green and golden colors that make you dream of adventures. As I was learning HTML and CSS, I put a lot of effort into using new tags and properties like `flex`, `grid`, and `position`. Here, I’ll tell you what I did, how I did it, and how to test my project.
 
-## ¿Qué es Happy Travel?
+## What is Happy Travel?
 
-Happy Travel es una página web para explorar destinos como Bali o París, buscar tu próximo viaje, y conocer un seguro para viajar sin preocupaciones. Tiene un menú, un buscador grande, un mosaico con fotos de destinos, una sección de seguro, y un pie de página con redes sociales. También hice una página de error con un GIF divertido para cuando algo no está listo. Elegí colores verdes para que se sienta natural, dorados para que sea elegante, y una fuente `'Times New Roman'` porque me pareció perfecta para el estilo.
+Happy Travel is a website to explore destinations like Bali or Paris, search for your next trip, and learn about insurance for worry-free travel. It has a menu, a large search bar, a mosaic with destination photos, an insurance section, and a footer with social media. I also created an error page with a fun GIF for when something isn’t ready. I chose green colors to feel natural, golden tones for elegance, and the `'Times New Roman'` font because it seemed perfect for the style.
 
-## ¿Qué hice?
+![imag](https://res.cloudinary.com/din119ww9/image/upload/v1747768354/Captura1_bc9aiz.png)
 
- Aquí está lo que logré:
+## What Did I Do?
 
-1. **Página principal (`index.html` y `styles.css`)**:
-   - Empecé con `<html>`, `<head>`, y `<body>`, y usé etiquetas como `<header>`, `<div>`, `<h1>`, `<h2>`, `<p>`, y `<a>` para armar la página.
-   - Hice un menú con enlaces a "Destinos", "Viajes Recomendados", y más, usando `<nav>` y `<ul>`.
-   - Puse un buscador con un texto que dice "¿Cuál es tu próximo destino?" y una imagen a la derecha.
-   - En CSS, usé `background-color`, `rgba` para transparencias, y `border-radius` para que todo tuviera esquinas redondeadas. ¡Me encantó aprender que `rgba` hace los colores más suaves!
+Here’s what I accomplished:
 
-2. **Creé un mosaico de destinos**:
-   - Hice una sección con 6 fotos de destinos, cada una con un nombre (como "Paris") y un botón "Más info".
-   - Usé `display: grid` para poner las fotos en 3 columnas, y aprendí a cambiarlas a 2 o 1 columna con `@media` para celulares.
-   - Le puse un fondo distinto para que resaltara contra el verde del resto.
+1. **Main Page (`index.html` and `styles.css`)**:
+   - I started with `<html>`, `<head>`, and `<body>`, and used tags like `<header>`, `<div>`, `<h1>`, `<h2>`, `<p>`, and `<a>` to build the page.
+   - I created a menu with links to "Destinations," "Recommended Trips," and more, using `<nav>` and `<ul>`.
+   - I added a search bar with text that says, "What’s your next destination?" and an image on the right.
+   - In CSS, I used `background-color`, `rgba` for transparency, and `border-radius` to give everything rounded corners.
 
-3. **Hice el buscador destacado**:
-   - Quise que el buscador fuera grande y estuviera debajo del texto "¿Cuál es tu próximo destino?", con la imagen a la derecha.
-   - Usé `position: absolute` para colocar el texto y el buscador a la izquierda, y `margin-left` para la imagen. ¡Fue un reto entender `position`!
-   - Con `padding` y `font-size`, hice el buscador más grande.
+2. **Created a Destination Mosaic**:
+   - I made a section with 6 destination photos, each with a name (like "Paris") and a "More Info" button.
+   - I used `display: grid` to arrange the photos in 3 columns.
+   - I gave it a different background to stand out against the green of the rest.
+   ![imag2](https://res.cloudinary.com/din119ww9/image/upload/v1747768354/Captura2_ywaw6x.png)
 
-4. **Estilicé todo con CSS**:
-   - Organicé `styles.css` empezando por el menú y terminando con el pie de página.
-   - Aprendí a usar `display: flex` para centrar cosas, `transition` para que los botones cambien de color suavemente, y `box-shadow` para dar profundidad.
-   - Hice que la página se viera bien en celulares con `@media`, como cambiar el menú a vertical en pantallas pequeñas.
+3. **Made the Search Bar Stand Out**:
+   - I wanted the search bar to be large and placed below the text "What’s your next destination?" with the image on the right.
+   - I used `position: absolute` to place the text and search bar on the left, and `margin-left` for the image.
+   - With `padding` and `font-size`, I made the search bar larger.
 
-5. **Creé una página de error**:
-   - Hice `error_page.html` que dice "¡Upss, estamos construyendo esta web!" con un GIF gracioso de alguien construyendo.
-   - Usé `display: flex` para centrar el título, el mensaje, el GIF, y un botón para volver al inicio.
-   - Aprendí a usar `min-height` para que la página llenara la pantalla y `backdrop-filter` para un efecto borroso en el menú.
+4. **Styled Everything with CSS**:
+   - I organized `styles.css` starting with the menu and ending with the footer.
+   - I learned to use `display: flex` to center things, `transition` for smooth button color changes, and `box-shadow` to add depth.
 
-## Archivos que Creé
+5. **Created an Error Page**:
+   - I made `error_page.html` that says, "Oops, we’re building this website!" with a funny GIF of someone building.
+   - I used `display: flex` to center the title, message, GIF, and a button to return to the homepage.
+   - I learned to use `min-height` to make the page fill the screen and `backdrop-filter` for a blurry effect on the menu.
 
-- **`index.html`**: La página principal con el menú, buscador, mosaico de destinos, seguro, y pie de página.
-- **`styles.css`**: Los estilos para la página principal, donde puse todo lo que aprendí de CSS.
-- **`error_page.html`**: Una página para cuando algo no está listo, con un GIF divertido.
-- **`error_page.css`**: Los estilos para la página de error, con los mismos colores verdes y dorados.
-- **`README.md`**: Este archivo, donde explico mi proyecto.
+## Files I Created
 
-## Cómo Usar mi Proyecto
+- **`index.html`**: The main page with the menu, search bar, destination mosaic, insurance, and footer.
+- **`styles.css`**: The styles for the main page, where I applied everything I learned about CSS.
+- **`error_page.html`**: A page for when something isn’t ready.
+- **`error_page.css`**: The styles for the error page, with the same green and golden colors.
+- **`README.md`**: This file, where I explain my project.
 
-1. **Qué necesitas**:
-   - Un navegador como Chrome o Firefox.
-   - Internet para cargar las imágenes y el GIF.
+## How to Use My Project
 
-2. **Cómo probarlo**:
-   - Pon todos los archivos en una carpeta.
-   - Abre `index.html` en el navegador para ver la página principal.
-   - Abre `error_page.html` para ver la página de error.
-   - Mira si el menú, las fotos, el buscador, y el GIF se ven bien.
+1. **What You Need**:
+   - A browser like Chrome or Firefox.
+   - Internet to load the images and GIF.
 
+2. **How to Test It**:
+   - Put all the files in a folder.
+   - Open `index.html` in the browser to see the main page.
+   - Open `error_page.html` to see the error page.
+   - Check if the menu, photos, search bar, and GIF look good.
 
-## Lo que Aprendí
+## What I Learned
 
-- **HTML**: Cómo usar `<div>`, `<h1>`, `<h2>`, `<a>`, `<img>`, y `<nav>` para armar una página.
-- **CSS**: Propiedades geniales como:
-  - `display: flex` y `display: grid` para organizar elementos.
-  - `position: absolute` y `margin` para mover cosas.
-  - `border-radius` para esquinas suaves.
-  - `transition` para efectos al pasar el mouse.
-  - `@media` para que la página se vea bien en celulares.
-- **Colores**: Cómo usar `rgba` para hacer colores transparentes y combinar verdes, dorados, y coral.
-- **Diseño**: Que los colores y el diseño pueden hacer que una página se sienta como una aventura.
+- **HTML**: How to use `<div>`, `<h1>`, `<h2>`, `<a>`, `<img>`, and `<nav>` to build a page.
+- **CSS**: Awesome properties like:
+  - `display: flex` and `display: grid` to organize elements.
+  - `position: absolute` and `margin` to move things.
+  - `border-radius` for smooth corners.
+  - `transition` for hover effects.
+- **Colors**: How to use `rgba` for transparent colors and combine greens, golds, and coral.
+- **Design**: That colors and design can make a page feel like an adventure.
 
-## Cosas que Quiero Mejorar
+## Things I Want to Improve
 
-- Aprender JavaScript para que el buscador busque de verdad.
-- Hacer más páginas, como una para cada destino.
+- Learn JavaScript to make the search bar actually search.
+- Create more pages, like one for each destination.
 
-## Notas
+## Notes
 
-- Los colores verdes y dorados hacen que la página se sienta como un viaje, y el coral le da un toque especial.
-- Aprendí un montón jugando con CSS, aunque a veces me confundí con `position` o `@media`.
-
-**¡Gracias por ver mi proyecto escolar! Espero que te guste!** 🌴
-
+- The green and golden colors make the page feel like a trip, and the beige adds a special touch.
+- I learned a lot playing with CSS, although I sometimes got confused with `position`.
+**Thanks for checking out my school project! I hope you like it!** 🌴
